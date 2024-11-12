@@ -34,7 +34,7 @@ pip install bulkflow
 
 2. Run the import:
 ```bash
-python -m bulkflow.load_data path/to/your/file.csv your_table_name
+python -m bulkflow.main path/to/your/file.csv your_table_name
 ```
 
 ## Project Structure
@@ -63,17 +63,17 @@ db_config = {
     "port": "5432"
 }
 
-process_file("data.csv", db_config, "target_table")
+process_file(file_path, db_config, table_name)
 ```
 
 ### CLI Usage
 
 ```bash
 # Basic usage
-python -m bulkflow.load_data data.csv target_table
+python -m bulkflow.main data.csv target_table
 
 # Custom config file
-python -m bulkflow.load_data data.csv target_table --config my_config.json
+python -m bulkflow.main data.csv target_table --config my_config.json
 ```
 
 ## Error Handling
