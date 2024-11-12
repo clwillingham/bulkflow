@@ -34,7 +34,7 @@ pip install bulkflow
 
 2. Run the import:
 ```bash
-python -m bulkflow.main path/to/your/file.csv your_table_name
+bulkflow path/to/your/file.csv your_table_name
 ```
 
 ## Project Structure
@@ -70,10 +70,10 @@ process_file(file_path, db_config, table_name)
 
 ```bash
 # Basic usage
-python -m bulkflow.main data.csv target_table
+bulkflow data.csv target_table
 
 # Custom config file
-python -m bulkflow.main data.csv target_table --config my_config.json
+bulkflow data.csv target_table --config my_config.json
 ```
 
 ## Error Handling
@@ -125,7 +125,14 @@ If you encounter any issues or have questions:
 1. Check the [Issues](https://github.com/clwillingham/bulkflow/issues) page
 2. Create a new issue if your problem isn't already listed
 3. Provide as much context as possible in your issue description
+4. Try to fix the issue yourself and submit a Pull Request if you can
 
 ## Author
 
 Created and maintained by [Chris Willingham](https://github.com/clwillingham)
+
+## AI Contribution
+
+The majority of this project's code was generated using AI assistance, specifically:
+- [Cline](https://github.com/cline/cline) - AI coding assistant
+- Claude 3.5 Sonnet (new) - Large language model by Anthropic
