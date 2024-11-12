@@ -13,7 +13,8 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/clwillingham/bulkflow",
-    packages=find_packages(),
+    package_dir={"": "src"},
+    packages=find_packages(where="src"),
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
@@ -35,7 +36,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'bulkflow=bulkflow.load_data:main',
+            'bulkflow=bulkflow.main:main',
         ],
     },
     keywords="postgresql csv data-loading etl database bulk-import data-processing",
