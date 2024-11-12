@@ -1,0 +1,13 @@
+{
+  "file_path": "../ssn_sample.txt",
+  "file_hash": "638c0a5a1a286efee25bd06042dbb8e0-526732669-1730952175.910881",
+  "total_bytes": 526732669,
+  "processed_bytes": 526732669,
+  "processed_chunks": 100,
+  "last_successful_position": 526732669,
+  "failed_chunks": [],
+  "started_at": "2024-11-11T21:56:38.451669",
+  "last_updated": "2024-11-11T21:59:04.365950",
+  "processing_rate": 6801512.2300593285,
+  "failed_rows_file": "failed_rows_20241111_215902.csv"
+}

@@ -1,0 +1,24 @@
+2024-11-11 21:56:38,451 - INFO - Successfully detected encoding: utf-8
+2024-11-11 21:56:51,354 - INFO - Progress: 0.97% complete | Speed: 0.38 MB/s | ETA: 0:22:03
+2024-11-11 21:56:56,666 - INFO - Progress: 9.77% complete | Speed: 8.33 MB/s | ETA: 0:00:54
+2024-11-11 21:57:01,932 - INFO - Progress: 18.53% complete | Speed: 8.35 MB/s | ETA: 0:00:49
+2024-11-11 21:57:07,119 - INFO - Progress: 27.36% complete | Speed: 8.56 MB/s | ETA: 0:00:42
+2024-11-11 21:57:12,260 - INFO - Progress: 36.26% complete | Speed: 8.69 MB/s | ETA: 0:00:36
+2024-11-11 21:57:17,728 - INFO - Progress: 41.20% complete | Speed: 4.54 MB/s | ETA: 0:01:05
+2024-11-11 21:57:22,772 - INFO - Progress: 48.14% complete | Speed: 6.91 MB/s | ETA: 0:00:37
+2024-11-11 21:57:28,137 - INFO - Progress: 53.13% complete | Speed: 4.67 MB/s | ETA: 0:00:50
+2024-11-11 21:57:33,495 - INFO - Progress: 60.04% complete | Speed: 6.48 MB/s | ETA: 0:00:30
+2024-11-11 21:57:39,025 - INFO - Progress: 66.91% complete | Speed: 6.24 MB/s | ETA: 0:00:26
+2024-11-11 21:57:44,186 - INFO - Progress: 73.73% complete | Speed: 6.64 MB/s | ETA: 0:00:19
+2024-11-11 21:57:49,276 - INFO - Progress: 80.57% complete | Speed: 6.75 MB/s | ETA: 0:00:14
+2024-11-11 21:57:54,532 - INFO - Progress: 87.65% complete | Speed: 6.77 MB/s | ETA: 0:00:09
+2024-11-11 21:57:59,901 - INFO - Progress: 94.58% complete | Speed: 6.49 MB/s | ETA: 0:00:04
+2024-11-11 21:58:04,741 - ERROR - Fatal error: name 'os' is not defined
+2024-11-11 21:59:02,427 - INFO - Resuming from previous state. Processed: 100 chunks, 100.0% complete
+2024-11-11 21:59:02,428 - INFO - Successfully detected encoding: utf-8
+2024-11-11 21:59:04,365 - INFO - Resuming from position 526732669
+2024-11-11 21:59:04,365 - WARNING - Import completed with the following issues:
+- 0 failed chunks
+- 0 failed rows
+Failed rows have been logged to: failed_rows_20241111_215902.csv
+Run again to retry failed chunks, or process failed rows separately using the failed rows file.

@@ -1,0 +1,16 @@
+db_config.json
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+env/
+.env
+.venv
+venv/
+ENV/
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
