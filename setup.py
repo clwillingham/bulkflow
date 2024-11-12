@@ -32,8 +32,7 @@ setup(
     ],
     python_requires=">=3.7",
     install_requires=[
-        "psycopg2-binary>=2.9.0",
-        "pandas>=1.0.0,<2.0.0"
+        "psycopg2-binary>=2.9.0"
     ],
     entry_points={
         'console_scripts': [
